@@ -6,17 +6,20 @@ function callMe() {
   console.log("so call me");
   return lyric;
   }
-
-function crazy() {
+  
+function crazy(){
   var thisIsCrazy = crazy()
-    console.log("hey!!!")
-    }
+  console.log("Hey!!!")
+}
+        
 
 function sayMyName() {
-  // fix the code in here:
-  var name = "Cricky";
+var name = "Kristin"
+  console.log(name);
+}
+}
 
-  sayMy();
+  sayMyName();
 
   function sayMy() {
     console.log(name);
